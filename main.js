@@ -59,7 +59,7 @@ function draw(bn){
 function lose(bn){
     ComPoints++;
     document.getElementById("who").innerHTML = "You lose...";
-    var bn = document.getElementById("bn");
+    var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("red");
     setTimeout(() => {
